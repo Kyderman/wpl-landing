@@ -14,7 +14,7 @@ main {
 .ad-bar {
   display: flex;
   justify-content: center;
-  height: 75px;
+  height: 90px;
   padding-bottom: 20px;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
@@ -26,7 +26,7 @@ main {
 
 @media only screen and (max-width: 600px) {
   .ad-bar {
-    height: 50px;
+    height: 60px;
   }
 }
 
@@ -64,6 +64,10 @@ main {
     padding-bottom: 10px;
     display: flex;
     justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .quicklink-button {
@@ -115,4 +119,8 @@ main {
         height: 30px
     }
   }
+
+.quicklinks-fade {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7));
+}
 
