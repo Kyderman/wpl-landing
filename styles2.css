@@ -21,7 +21,6 @@ main {
 }
 
 .ad-slot {
-  
 }
 
 @media only screen and (max-width: 600px) {
@@ -59,14 +58,14 @@ main {
 }
 
 .quicklinks {
-    border-top: black 1px solid;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    /* border-bottom-right-radius: 10px;
+  border-top: black 1px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px; */
 }
 
@@ -75,9 +74,12 @@ main {
   border-radius: 999px;
   box-shadow: black 0 10px 20px -10px;
   box-sizing: border-box;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
-  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -90,28 +92,25 @@ main {
   width: fit-content;
   word-break: break-word;
   border: 0;
-  transition: background-color .5s, box-shadow .5s;
-
+  transition: background-color 0.5s, box-shadow 0.5s;
 }
 
 .quicklink-button:hover {
-    background-color: grey;
-    box-shadow: grey 0 10px 20px -10px;
+  background-color: grey;
+  box-shadow: grey 0 10px 20px -10px;
 }
 
-
-
 @media only screen and (max-width: 600px) {
-    .quicklink-button {
-        padding: 4px 9px;
-        font-size: 12px;
-        line-height: 16px;
-    }
+  .quicklink-button {
+    padding: 4px 9px;
+    font-size: 12px;
+    line-height: 16px;
   }
+}
 
 .quicklink-image {
-    height: 50px;
-    padding-right: 10px;
+  height: 50px;
+  padding-right: 10px;
 }
 
 .quicklink-ad {
@@ -120,24 +119,26 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
-    .quicklink-image {
-        height: 30px
-    }
+  .quicklink-image {
+    height: 30px;
   }
+  .quicklink-ad {
+    height: 60px;
+  }
+}
 
-  .quicklinks-medium-fade {
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6));
-  }
+.quicklinks-medium-fade {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
+}
 
 .quicklinks-fade {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
 }
 
 .quicklinks-dark {
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .quicklinks-light {
-  background: rgba(255,255,255,0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
-
